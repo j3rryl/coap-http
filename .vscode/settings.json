@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "CoAP_JavaCode/Internet/jar_files/californium-core-1.0.4.jar",
+        "CoAP_JavaCode/Internet/jar_files/element-connector-1.0.4.jar"
+    ]
+}
