@@ -1,0 +1,7 @@
+1.  HTTP Response Code 200 - OK. This just tells the request was successful, and client's request fulfilled.
+    HTTP Response Code 404 - Not Found - The requested resource was not found on the server
+2.  Response messages provide additional information about status or outcome of the request triggered by a client.
+    The differnce between the 2 is that the first one returns a 200 which means request was successful, while the second returns a 404 which implies the request sent was unsuccessful.
+3.  Content length refers to size of content sent by a server in HTTP. -1 means that the length is unspecified. In the first url the length was very long hence the -1. In the second url, the content length was 1576 due to the length being determined.
+4.  HTTP and CoAP use different status codes. HTTP status codes include 200, 404 and 500 while coAP include 2.05, 4.04 and 5.03.
+5.  HTTP has a larger payload. This is because it supports a wide range of media types and data formats. CoAP is lightweight protocol designed for constrained devices and low-powere networks, more so the ones found in IoT.
